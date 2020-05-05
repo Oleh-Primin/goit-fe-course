@@ -3,13 +3,6 @@
   margin: 0 auto;
 }
 
-body p button {
-  font-family: "playfair display" serif;
-  font-style: 14px;
-  font-weight: 400;
-  color: rgb(98, 98, 98);
-}
-
 .nav ul {
   text-align: center;
 }
@@ -20,14 +13,21 @@ body p button {
   margin-top: 77px;
   margin-right: 100px;
   margin-bottom: 103px;
-  cursor: pointer;
 }
 
 .nav li:last-child {
   margin-right: 0;
 }
 
-li:hover {
+.style__menu {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.style__menu:hover {
   color: rgb(3, 169, 244);
 }
 
@@ -45,7 +45,6 @@ li:hover {
 
 .post img {
   display: block;
-  /* width: 100%; */
   height: auto;
 }
 
