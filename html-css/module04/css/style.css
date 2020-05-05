@@ -154,7 +154,7 @@ a {
 }
 
 .news {
-  weight: 347px;
+  width: 347px;
   height: auto;
   float: left;
   margin-right: 30px;
