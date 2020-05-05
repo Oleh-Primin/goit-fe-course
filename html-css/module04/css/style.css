@@ -48,8 +48,9 @@ a {
 }
 
 .nav__list-item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
+
 .logo::first-letter {
   color: rgb(26, 188, 156);
 }
