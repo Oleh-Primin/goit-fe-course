@@ -99,10 +99,10 @@ a {
   margin-bottom: 30px;
 }
 
-.trade:nth-child(4n + 4) {
-  margin-right: 0px;
+.trade:nth-child(4n+4) {
+  margin-right: 0;
 }
-.trade:nth-child(n + 5) {
+.trade:nth-child(n+5) {
   margin-bottom: 100px;
 }
 
@@ -139,7 +139,7 @@ a {
   text-align: center;
   padding-top: 4px;
   float: left;
-}
+} 
 
 .trade__link {
   color: rgb(255, 255, 255);
@@ -221,7 +221,8 @@ a {
 
 .Read__More {
   border-radius: 3px;
-  background-color: rgb(78, 198, 171);
+  background-color: 
+  rgb(78, 198, 171);
   width: 160px;
   height: 51px;
   margin-bottom: 82px;
