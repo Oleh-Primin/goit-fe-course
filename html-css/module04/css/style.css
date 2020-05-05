@@ -73,7 +73,7 @@ a {
   font-size: 48px;
   line-height: 1.2;
   font-family: "Roboto";
-  font-weight: 800;
+  font-weight: 700;
   color: rgb(81, 81, 81);
   text-transform: uppercase;
   text-align: center;
@@ -92,17 +92,16 @@ a {
 
 .trade {
   width: 255px;
-  height: 322px;
   background-color: rgb(233, 240, 253);
   float: left;
   margin-right: 30px;
   margin-bottom: 30px;
 }
 
-.trade:nth-child(4n+4) {
+.trade:nth-child(4n + 4) {
   margin-right: 0;
 }
-.trade:nth-child(n+5) {
+.trade:nth-child(n + 5) {
   margin-bottom: 100px;
 }
 
@@ -120,6 +119,7 @@ a {
   height: 40px;
   font-size: 18px;
   font-family: "Roboto";
+  font-weight: 700;
   text-transform: uppercase;
   line-height: 1.778;
   float: left;
@@ -139,7 +139,7 @@ a {
   text-align: center;
   padding-top: 4px;
   float: left;
-} 
+}
 
 .trade__link {
   color: rgb(255, 255, 255);
@@ -189,7 +189,6 @@ a {
 }
 
 .name__1 {
-  width: 347px;
   font-size: 18px;
   font-family: "Open Sans";
   color: rgb(85, 82, 82);
@@ -209,7 +208,6 @@ a {
 }
 
 .name__2 {
-  width: 347px;
   font-size: 14px;
   font-family: "Open Sans";
   color: rgb(85, 82, 82);
@@ -221,26 +219,15 @@ a {
 
 .Read__More {
   border-radius: 3px;
-  background-color: 
-  rgb(78, 198, 171);
+  background-color: rgb(78, 198, 171);
   width: 160px;
   height: 51px;
   margin-bottom: 82px;
+}
+
+.buttom__link {
   font-size: 16px;
   font-family: "Open Sans";
   color: rgb(255, 255, 255);
   text-align: center;
-}
-
-.Nam_nec_tellus_a_odio_tincidunt_auc__Duis_sed_o {
-  font-size: 14px;
-  font-family: "OpenSans";
-  color: rgb(85, 82, 82);
-  line-height: 1.857;
-  position: absolute;
-  left: 1021.937px;
-  top: 1648.25px;
-  width: 335px;
-  height: 66px;
-  z-index: 10;
 }
