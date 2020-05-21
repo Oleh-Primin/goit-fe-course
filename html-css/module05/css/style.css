@@ -86,7 +86,6 @@ a {
 
 .slider {
   position: relative;
-  /* color: rgb(255, 255, 255); */
 }
 
 .slider::before {
@@ -110,7 +109,7 @@ a {
 
 .slider__header {
   display: block;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 60px;
   line-height: 1.367;
   text-align: left;
@@ -119,7 +118,7 @@ a {
 
 .slider__text_2 {
   display: block;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 24px;
   line-height: 1.367;
