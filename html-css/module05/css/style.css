@@ -99,7 +99,7 @@ a {
 }
 
 .slider__text {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   max-width: 100%;
   color: rgb(255, 255, 255);
   position: absolute;
@@ -119,4 +119,239 @@ a {
 
 .slider__text_2 {
   display: block;
+  font-family: "Roboto" sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.367;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.arrows {
+  display: block;
+  width: 1110px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 5;
+}
+
+.left {
+  display: block;
+  border: none;
+  width: 104px;
+  height: 104px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background-color: rgba(26, 188, 156, 0.651);
+  background-image: url(../img/angle-left.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.right {
+  display: block;
+  border: none;
+  width: 104px;
+  height: 104px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background-color: rgba(26, 188, 156, 0.651);
+  background-image: url(../img/angle-right.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: right;
+}
+
+.left:hover,
+.right:hover {
+  background-color: rgb(26, 188, 156);
+}
+
+.main {
+  width: 1110px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.main__cards {
+  margin-bottom: 100px;
+}
+
+.collection {
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: rgb(81, 81, 81);
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: -0.28px;
+  text-align: center;
+  margin-top: 105px;
+}
+
+.collection::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  margin-top: 37px;
+  margin-bottom: 80px;
+  background-color: rgb(26, 188, 156);
+  width: 164px;
+  height: 7px;
+}
+
+.image {
+  width: 255px;
+  height: 282px;
+  float: left;
+}
+
+.cards {
+  width: 255px;
+  background-color: rgb(233, 240, 253);
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.cards:last-child {
+  margin-right: 0px;
+}
+
+.trade__name {
+  padding-top: 4px;
+  padding-left: 14px;
+  background-color: rgb(50, 50, 50);
+  width: 201px;
+  height: 40px;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.778;
+  float: left;
+}
+
+.price {
+  display: block;
+  background-color: rgb(50, 50, 50);
+  opacity: 0.439;
+  width: 54px;
+  height: 40px;
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.778;
+  text-align: center;
+  padding-top: 4px;
+  float: left;
+}
+
+.trade__link {
+  color: rgb(255, 255, 255);
+}
+
+.overlay {
+  width: 255px;
+  height: 282px;
+  border-width: 10px;
+  border-color: rgba(255, 255, 255, 0.549);
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.549);
+  background-clip: padding-box;
+  position: absolute;
+  display: none;
+}
+
+.overlay_list {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay_list_item {
+  margin: 4px;
+  float: left;
+}
+
+.overlay_list_link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.overlay_list_link_heard {
+  background-image: url(../img/icons/heard.png);
+}
+
+.overlay_list_link_shuffle {
+  background-image: url(../img/icons/shuffle.png);
+}
+
+.overlay_list_link_clock {
+  background-image: url(../img/icons/clock.png);
+}
+
+.overlay_list_link_cart {
+  background-image: url(../img/icons/cart.svg);
+  width: 166px;
+  height: 50px;
+  padding-left: 58px;
+  padding-top: 16px;
+  background-position-x: 10px;
+  font-size: 14px;
+  font-family: "OpenSans", sans-serif;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.cards:hover .overlay {
+  display: block;
+}
+
+.cards:hover .trade__name {
+  background-color: rgb(26, 188, 156);
+}
+.cards:hover .price {
+  background-color: rgb(26, 188, 156);
+}
+
+.overlay_list_link:hover {
+  border-color: rgb(26, 188, 156);
+  background-color: rgb(26, 188, 156);
+}
+
+.overlay_list_link_cart:hover {
+  background-color: rgb(50, 50, 50);
+  border-color: rgb(255, 255, 255);
+  background-clip: padding-box;
+}
+
+.footer {
+  padding: 34px 0px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(254, 254, 254);
+  line-height: 28px;
+  text-align: center;
+  background-color: rgb(50, 50, 50);
+}
+
+.footer a {
+  color: rgb(70, 191, 169);
+  text-decoration: none;
 }
